@@ -40,14 +40,14 @@ const Home = () => {
           value={user}
           maxLength="10"
           onChange={onInputChange}
-          className="w-full rounded-lg border-2 bg-gray-300 p-2 text-gray-900 shadow  outline-none"
+          className="w-full rounded-lg border-2 bg-gray-300 p-2 text-center text-gray-900 shadow  outline-none"
         />
         <input
           type="email"
           value={email}
           placeholder="Enter your email"
           placeholderTextColor="black"
-          className=" w-full rounded-lg bg-gray-300 p-2 text-gray-900 shadow outline-none"
+          className=" w-full rounded-lg bg-gray-300 p-2 text-center text-gray-900 shadow outline-none"
           onChange={(e) => setemail(e.target.value)}
         />
 
@@ -56,7 +56,7 @@ const Home = () => {
           value={password}
           placeholder="Enter your password"
           placeholderTextColor="black"
-          className=" w-full rounded-lg bg-gray-300 p-2 text-gray-900 shadow outline-none"
+          className=" w-full rounded-lg bg-gray-300 p-2 text-center text-gray-900 shadow outline-none"
           onChange={(e) => setPassword(e.target.value)}
         />
 
